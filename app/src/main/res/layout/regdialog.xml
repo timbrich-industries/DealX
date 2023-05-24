@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="7dp"
+    android:background="@drawable/button_top_1"
+    >
+
+
+
+    <EditText
+        android:id="@+id/pass_dial_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:hint="@string/regdial_hint_1"
+        android:background="@color/top1"
+        android:textAlignment="center"
+        android:textColorHint="@color/top2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:background="@color/top3"
+        />
+    <EditText
+        android:id="@+id/pass_dial_2"
+        android:hint="@string/regdial_hint_2"
+        android:textColorHint="@color/top2"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/top1"
+        android:textColor="@color/top2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:background="@color/top3"
+        />
+    <EditText
+        android:id="@+id/pass_dial_3"
+        android:hint="@string/regdial_hint_3"
+        android:textColorHint="@color/top2"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/top1"
+        android:textColor="@color/top2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:background="@color/top3"
+        />
+    <EditText
+        android:id="@+id/pass_dial_4"
+        android:hint="@string/regdial_hint_4"
+        android:textColorHint="@color/top2"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/top1"
+        android:textColor="@color/top2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:background="@color/top3"
+        />
+    <Button
+        android:id="@+id/reg_button_1"
+        android:hint="@string/reg_button"
+        android:textColorHint="@color/top2"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/button_main_shape"
+        android:textColor="@color/top2" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/top1"
+    tools:context=".ActivityTwo">
+
+    <TextView
+        android:id="@+id/creating_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/creating_text_1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/creating_code_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/button_main_shape"
+        android:gravity="center"
+        android:layout_marginRight="5sp"
+        android:textSize="21sp"
+        android:layout_marginLeft="5sp"
+        android:hint="@string/creating_hint_1" />
+
+    <EditText
+        android:id="@+id/creating_code_2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/button_main_shape"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="7sp"
+        android:hint="@string/creating_hint_2" />
+
+
+    <Button
+        android:id="@+id/creating_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="5sp"
+        android:background="@drawable/button_main_shape"
+        android:gravity="center"
+        android:hint="@string/creating_text_2"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/exit_button"
+        android:background="@drawable/button_main_shape"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="320sp"
+        android:layout_marginRight="5sp"/>
+
+
+</LinearLayout>

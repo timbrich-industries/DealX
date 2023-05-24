@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/top4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/autorization_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/autorization_text_1"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/button_main_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/autorization_code_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="@string/autorization_hint_1"
+        android:textColorHint="@color/white"
+        android:background="@drawable/button_main_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="@string/autorization_text_2"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/button_main_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clue"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:text="@string/autorization_text_3"
+        android:hint="@string/clue"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/button_main_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+
+
+
+</LinearLayout>

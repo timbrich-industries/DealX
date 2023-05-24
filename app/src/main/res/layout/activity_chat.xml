@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_three_scene"
+    tools:context=".Chat"
+    android:id="@+id/Chat_activity"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+  <EditText
+      android:id="@+id/editText"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:ems="7"
+      android:inputType="textPersonName"
+      android:text=""
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:textSize="25dp"
+      android:hint="Here"
+      />
+ </LinearLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     >
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Add"
+      android:onClick="add"/>
+  <Button
+      android:id="@+id/button_sort"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Sort"
+      android:onClick="sort" />
+  <Button
+      android:id="@+id/btn_delete"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="DEL"
+      />
+
+
+ </LinearLayout>
+ <androidx.recyclerview.widget.RecyclerView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_weight="1"
+     android:id="@+id/list_of_messages"
+     android:layout_margin="10dp"
+
+     />
+</LinearLayout>

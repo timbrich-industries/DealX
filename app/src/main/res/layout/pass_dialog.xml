@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="7dp"
+    android:background="@drawable/button_top_1"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.3"
+        android:background="@color/top1"
+        android:text="@string/enterpass"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/top2"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@color/top3"
+        />
+
+    <EditText
+        android:id="@+id/pass_dial_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:hint="@string/enterpass2"
+        android:background="@color/top1"
+        android:textAlignment="center"
+        android:textColorHint="@color/top2"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@color/top3"
+        />
+    <Button
+        android:id="@+id/reg_button_1"
+        android:hint="@string/reg_button"
+        android:textColorHint="@color/top2"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:textSize="20sp"
+        android:background="@drawable/button_main_shape"
+        android:textColor="@color/black" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "973414612137",
+    "project_id": "dealx-2303b",
+    "storage_bucket": "dealx-2303b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973414612137:android:7c6bd35703253d5fcffdb8",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973414612137-vclrei4l1144g38fd012rvcbaamb6vuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "42de557f4e05d034511f786fe7c3910d25641c14"
+          }
+        },
+        {
+          "client_id": "973414612137-jlbvtniihofhv1sbcpauu46qlmpb28ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAobyiHz1Q55ZHlNcKdWJDI_ZN0y2bCDJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973414612137-baoc1h8i50u0q1ue94sm4dmujiac6b0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
